@@ -1,0 +1,15 @@
+﻿<Window x:Class="TareaCapitulos4Y5.Capitulo5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TareaCapitulos4Y5"
+        mc:Ignorable="d"
+        Title="Capitulo5" Height="300" Width="500">
+    <Grid>
+        <TextBlock Text="Favor seleccionar el ejercicio" TextWrapping="Wrap" FontSize="36" FontFamily="Times New Roman" Margin="20,37,0,174" FontWeight="Bold"/>
+        <Button Content="Ejercocio 4" FontSize="20" FontFamily="Times New Roman" Margin="52,142,275,60" Click="Button_Click"/>
+        <Button Content="Ejercicio 5" FontSize="20" FontFamily="Times New Roman" Margin="276,142,51,60" Click="Button_Click_1"/>        
+         
+    </Grid>
+</Window>
