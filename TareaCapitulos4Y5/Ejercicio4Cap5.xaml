@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="Ejercicio4Cap5" Height="450" Width="800">
     <Grid>
+        <TextBlock Text="Ejercicio #4 del Capitulo5" TextWrapping="Wrap" Margin="212,10,102,367" FontWeight="Bold" FontFamily="Times New Roman" FontSize="30"/>
+        <TextBlock Text="Este ejercicio calcula el factorial de un número." TextWrapping="Wrap" FontSize="22" Margin="184,72,102,296" FontFamily="Times New Roman"/>
+        
+        <Label Content="Favor ingrese el numero" FontWeight="Bold" FontSize="18" Margin="34,158,525,217"/>
+        <TextBox x:Name="numero" TextWrapping="Wrap" Margin="248,158,455,232"/>
+        <Button Content="Calcular" Margin="390,147,178,234" Click="Button_Click" FontWeight="Bold" FontSize="24"/>
+        
+        <Label Content="Resultado" Margin="390,228,310,139" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="resultado" TextWrapping="Wrap" Margin="490,217,155,164"/>
+        
         
     </Grid>
 </Window>

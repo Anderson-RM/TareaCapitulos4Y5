@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TareaCapitulos4Y5"
         mc:Ignorable="d"
-        Title="Ejercicio1Cap4" Height="450" Width="800">
+        Title="Ejercicio1Cap4" Height="459" Width="800">
     <Grid>
         <TextBlock Text="Ejercicio #1 del Capitulo4" TextWrapping="Wrap" Margin="212,10,102,367" FontWeight="Bold" FontFamily="Times New Roman" FontSize="30"/>
         <TextBlock Text="Este ejercicio muestra la tabla de multiplicar del 1 al 10 de cualquier número digitado." TextWrapping="Wrap" FontSize="22" Margin="10,72,10,296" FontFamily="Times New Roman"/>
@@ -13,8 +13,8 @@
         <Label Content="Tabla" Margin="95,138,555,247" FontSize="22" FontWeight="Bold"/>
         <Label Content="Limite" FontSize="22" FontWeight="Bold" Margin="250,134,400,247"/>
         <ListBox Margin="400,134,54,10" x:Name="ListBox1"/>
-        <TextBox Text=" " x:Name="TextBox1"  TextWrapping="Wrap" Margin="95,187,595,200" FontSize="20" TextChanged="TextBox_TextChanged"/>
-        <TextBox Text=" " x:Name="TextBox2" TextWrapping="Wrap" Margin="245,187,445,200" FontSize="20"/>
+        <TextBox x:Name="TextBox1"  TextWrapping="Wrap" Margin="95,187,595,200" FontSize="20"/>
+        <TextBox x:Name="TextBox2" TextWrapping="Wrap" Margin="245,187,445,200" FontSize="20"/>
         <Button Content="Multiplicar" Margin="95,255,445,95" FontSize="22" FontWeight="Bold" Click="Button_Click"/>
 
     </Grid>

@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Ejercicio5Cap5" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock Text="Ejercicio #5 del Capitulo5" TextWrapping="Wrap" Margin="194,10,97,362" FontWeight="Bold" FontFamily="Times New Roman" FontSize="30"/>
+        <TextBlock Text="Este ejercicio dado un número nos regresa una cadena donde se encuentre escrito en palabras." TextWrapping="Wrap" FontSize="22" Margin="10,72,0,272" FontFamily="Times New Roman"/>
+
     </Grid>
 </Window>

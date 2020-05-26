@@ -21,5 +21,26 @@ namespace TareaCapitulos4Y5
         {
             InitializeComponent();
         }
+
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+            int n;             
+                int i = 2;
+                double factorial = 1;
+                n = int.Parse(numero.Text);
+
+                while(i <= n)
+                {
+                    factorial *= i;
+                    i++;
+                }
+                resultado.Text = Convert.ToString(factorial);
+                ///return factorial;
+            
+        }
+ 
     }
 }
